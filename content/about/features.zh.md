@@ -55,17 +55,17 @@ Jenkins X 的持续部署流水线把改变了的版本自动做部署升级，�
 
 <img src="/images/overview.png" class="img-thumbnail">
 
-## 预发环境
+## 预览环境
 
-Jenkins X 允许你给 Pull Requests 设置一个预发环境，这样就可以在变更后并到 master 之前得到更多的反馈。这使你的变更在被合并以及发布之前更快得到反馈，并允许你避免在你的发版流水线中有人为的批准，加速变更在合并后的部署。
+Jenkins X 允许你给 Pull Requests 设置一个预览环境，这样就可以在变更后并到 master 之前得到更多的反馈。这使你的变更在被合并以及发布之前更快得到反馈，并允许你避免在你的发版流水线中有人为的批准，加速变更在合并后的部署。
 
-当预发环境启动并运行后，Jenkins X 将会在你的 Pull Requests 中添加一个带链接的评论，这样你们团队的成员就可以点击来尝试它！
+当预览环境启动并运行后，Jenkins X 将会在你的 Pull Requests 中添加一个带链接的评论，这样你们团队的成员就可以点击来尝试它！
 
 <img src="/images/pr-comment.png" class="img-thumbnail">
 
 ## 反馈
 
-正如在上面看到的，当你使用预发环境时，Jenkins X 会在你的 Pull Requests 上自动添加评论。
+正如在上面看到的，当你使用预览环境时，Jenkins X 会在你的 Pull Requests 上自动添加评论。
 
 如果你在提交日志中引用了 issues（例如：通过文本`fixes #123`），那么，Jenkins X 流水线将会生成发版记录，例如： [the jx releases](https://github.com/jenkins-x/jx/releases)。
 

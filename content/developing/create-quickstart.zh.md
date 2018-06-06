@@ -76,7 +76,7 @@ ls -al ~/.jx/draft/packs/github.com/jenkins-x/draft-packs/packs
 * 当文件不存在时，语言包会实现默认的：
   * `Dockerfile` 将程序打包为 docker 镜像
   * `Jenkinsfile` 使用申明式流水线（pipeline）实现持续构建、持续部署
-  * Helm Charts 在 Kubernetes 上部署程序，并且实现 [预发环境](/about/features/#preview-environments)
+  * Helm Charts 在 Kubernetes 上部署程序，并且实现 [预览环境](/about/features/#preview-environments)
    
 ## 添加你自己的快速入门
 
